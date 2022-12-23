@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 
 public class Main { //Inserindo dados no banco
     public static void main(String[] args) {
-        Connection connection = null;
+        Connection connection;
         PreparedStatement statement = null;
         SimpleDateFormat date = new SimpleDateFormat("dd/MM/yyyy");
 
